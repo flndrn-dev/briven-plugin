@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "briven": {
+      "type": "http",
+      "url": "https://briven.tech/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${BRIVEN_API_KEY}"
+      }
+    }
+  }
+}

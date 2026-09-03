@@ -1,0 +1,22 @@
+{
+  "name": "briven",
+  "version": "1.0.0",
+  "description": "Briven serverless PostgreSQL: connect an agent to briven.tech via the live MCP door, with a skill that tells the truth about Neon (closest product) and will not delete a database.",
+  "author": {
+    "name": "briven",
+    "url": "https://briven.tech"
+  },
+  "homepage": "https://briven.tech/for-ai",
+  "repository": "https://github.com/flndrn-dev/briven-plugin",
+  "license": "MIT",
+  "keywords": ["briven", "briven.tech", "briven mcp", "briven postgres"],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Briven API key",
+      "description": "A key from briven.tech starting with brk_. Start with a read-only key. Also export it as BRIVEN_API_KEY so the MCP door can open.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}

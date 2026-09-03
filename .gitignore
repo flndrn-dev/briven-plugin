@@ -1,0 +1,7 @@
+# SOT KEYWORDS: briven-plugin-gitignore
+#
+# Keys never belong in this pack. The MCP door reads BRIVEN_API_KEY from the
+# environment, not from a file in git.
+.env
+.env.*
+.DS_Store
