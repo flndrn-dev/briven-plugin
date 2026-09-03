@@ -5,7 +5,7 @@
   "source": {
     "source": "url",
     "url": "https://github.com/flndrn-dev/briven-plugin.git",
-    "sha": "0000000000000000000000000000000000000000"
+    "sha": "7125efdfe254a73237d5d64478fba932d179dbe8"
   },
   "homepage": "https://briven.tech/for-ai",
   "keywords": ["briven", "briven.tech", "briven mcp", "briven postgres"],
